@@ -112,16 +112,16 @@ Alias[PD2GGUNIETH1]: ((utp OR uhc) UNI ETH !ID)
 // Purgatory / Siggard's
 
 //GG PD2 UNIQUES
-Alias[PD2GGUNI1]: ((baf OR 7qs OR 6bs OR utg) UNI !ID)
-// Raekor's / Akarat's / Brimstone / Occultist
+Alias[PD2GGUNI1]: ((baf OR 7qs OR utg) UNI !ID)
+// Raekor's / Akarat's / Occultist
 
 //OK PD2 UNIQUES only when ETH - Weapons
 Alias[PD2OKUNIETH1]: ((7st OR 7cm OR 7fb) UNI ETH !ID)
 // Uldyssian / Leoric's Bane / Odium
 
 //OK PD2 UNIQUES - Armors
-Alias[PD2OKUNI1]: ((drf OR utp OR ned OR drc OR paf OR dr6 OR uhc OR uul OR 8cb) UNI !ID)
-// Ursa's / Purgatory / Martyrdom / Denmother / Skywarden / Fenris / Siggard's / Steel Carapace / Endlesshail
+Alias[PD2OKUNI1]: ((drf OR utp OR ned OR drc OR paf OR dr6 OR uhc OR uul OR 8cb OR 6bs) UNI !ID)
+// Ursa's / Purgatory / Martyrdom / Denmother / Skywarden / Fenris / Siggard's / Steel Carapace / Endlesshail / Brimstone
 
 //OK PD2 UNIQUES - Weapons
 Alias[PD2OKUNI2]: ((aqv3 OR cqv3) UNI !ID)
