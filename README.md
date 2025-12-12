@@ -169,3 +169,9 @@ The sections below document notable changes compared to the base Kryszard filter
 
 ### Meme Enpherno Bastard Sword Drop Example
 [![Charm & Jewel examples](screenshots/MemeBastardSword.png)](screenshots/MemeBastardSword.png)
+
+### Charm Notification Example
+[![Charm Notification examples](screenshots/MemeBastardSword.png)](screenshots/MemeBastardSword.png)
+
+### Meme Enpherno Bastard Sword Drop Example
+[![Charm & Jewel examples](screenshots/MemeBastardSword.png)](screenshots/MemeBastardSword.png)
