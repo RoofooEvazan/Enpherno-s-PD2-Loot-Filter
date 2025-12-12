@@ -4947,11 +4947,11 @@ ItemDisplay[CLSK2=2 (NMAG OR MAG OR RARE OR CRAFT) SHOP]: %NAME%{%GRAY%*%TAN%*%W
 //+1 Class Skills
 ItemDisplay[((NECTREE12 OR NECTREE13 OR NECTREE22 OR NECTREE23 OR NECTREE32 OR NECTREE33) AND CLSK2=1) (NMAG OR MAG OR RARE OR CRAFT) SHOP]: %NAME%{%GRAY%*   %WHITE%+%GRAY%1 %WHITE%to %LIGHT_GRAY%Class Skills   %GRAY%*%CL%%NAME%}%CONTINUE%
 // Fire Golem +6 Only
-ItemDisplay[(TABSK18=3 AND FIREGOLEM12) (NMAG OR MAG OR RARE OR CRAFT) SHOP]: %RED%+++++ | | | | | +6 FIRE GOLEM WAND | | | | | +++++{%GREEN%***%RED%***     %BLUE%*%TEAL%*%WHITE%*   %RED%+%GREEN%6 to Single Skill   %WHITE%*%TEAL%*%BLUE%*     %RED%***%GREEN%***%CL%%NAME%}
+ItemDisplay[(TABSK18=3 AND FIREGOLEM12) (NMAG OR MAG OR RARE OR CRAFT) SHOP]: %RED%************ +6 FIRE GOLEM WAND ************{%GREEN%***%RED%***     %BLUE%*%TEAL%*%WHITE%*   %RED%+%GREEN%6 to Single Skill   %WHITE%*%TEAL%*%BLUE%*     %RED%***%GREEN%***%CL%%NAME%}
 // Fire Golem +5-6 and Fire Damage
-ItemDisplay[(TABSK18=3 AND FIREGOLEM11 AND FIREDAMAGE11) (NMAG OR MAG OR RARE OR CRAFT) SHOP]: %ORANGE%+++++ | | | | | +6/X FIRE GOLEM WAND | | | | | +++++{%GREEN%***%RED%***     %BLUE%*%TEAL%*%WHITE%*   %RED%+%GREEN%6 to Single Skill   %WHITE%*%TEAL%*%BLUE%*     %RED%***%GREEN%***%CL%%NAME%}
+ItemDisplay[(TABSK18=3 AND FIREGOLEM11 AND FIREDAMAGE11) (NMAG OR MAG OR RARE OR CRAFT) SHOP]: %ORANGE%************ +5-6/X FIRE GOLEM/DAMAGE WAND ************{%GREEN%***%RED%***     %BLUE%*%TEAL%*%WHITE%*   %RED%+%GREEN%6 to Single Skill   %WHITE%*%TEAL%*%BLUE%*     %RED%***%GREEN%***%CL%%NAME%}
 // Fire Golem +5-6 and Fire Damage
-ItemDisplay[(TABSK18=2 AND FIREGOLEM12 AND FIREDAMAGE11) (NMAG OR MAG OR RARE OR CRAFT) SHOP]: %ORANGE%+++++ | | | | | +6/X FIRE GOLEM WAND | | | | | +++++{%GREEN%***%RED%***     %BLUE%*%TEAL%*%WHITE%*   %RED%+%GREEN%6 to Single Skill   %WHITE%*%TEAL%*%BLUE%*     %RED%***%GREEN%***%CL%%NAME%}
+ItemDisplay[(TABSK18=2 AND FIREGOLEM12 AND FIREDAMAGE11) (NMAG OR MAG OR RARE OR CRAFT) SHOP]: %ORANGE%************ +5-6/X FIRE GOLEM/DAMAGE WAND ************{%GREEN%***%RED%***     %BLUE%*%TEAL%*%WHITE%*   %RED%+%GREEN%6 to Single Skill   %WHITE%*%TEAL%*%BLUE%*     %RED%***%GREEN%***%CL%%NAME%}
 //+6 Skill Combo
 ItemDisplay[(TABSK18=3 AND NECTREE13) (NMAG OR MAG OR RARE OR CRAFT) SHOP]: %NAME%{%GREEN%***%RED%***     %BLUE%*%TEAL%*%WHITE%*   %RED%+%GREEN%6 to Single Skill   %WHITE%*%TEAL%*%BLUE%*     %RED%***%GREEN%***%CL%%NAME%}%CONTINUE%
 ItemDisplay[(TABSK17=3 AND NECTREE23) (NMAG OR MAG OR RARE OR CRAFT) SHOP]: %NAME%{%GREEN%***%RED%***     %YELLOW%*%TAN%*%WHITE%*   %RED%+%GREEN%6 to Single Skill   %WHITE%*%TAN%*%YELLOW%*     %RED%***%GREEN%***%CL%%NAME%}%CONTINUE%
