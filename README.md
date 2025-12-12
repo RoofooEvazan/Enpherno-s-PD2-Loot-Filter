@@ -1,6 +1,8 @@
 # Enpherno’s PD2 Loot Filter
 
-**Edited and maintained by:** Enpherno & RoofooEvazan  
+**Edited and maintained by:**  
+- [Enpherno](https://twitch.tv/Enpherno)  
+- [RoofooEvazan](https://twitch.tv/RoofooEvazan)
 
 A selectively customized fork of **Kryszard’s Project Diablo 2 loot filter**.
 
