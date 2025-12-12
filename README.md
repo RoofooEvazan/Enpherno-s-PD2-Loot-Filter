@@ -162,3 +162,9 @@ The sections below document notable changes compared to the base Kryszard filter
 - Hide non-magic & superior Paladin shields,  
   excluding Vortex, Kurast, and Zakarum Shields
 
+## 📸 Screenshot Examples
+
+### Charm & Jewel Examples
+[![Charm & Jewel examples](screenshots/Jewel&Charms.png)](screenshots/Jewel&Charms.png)
+
+
