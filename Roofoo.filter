@@ -46,8 +46,23 @@ ItemDisplay[DIN (MAG OR RARE) FILTLVL>7 !(pad OR pae OR paf)]:
 // Paladin scepters
 ItemDisplay[SCEPTER PALADIN (NMAG OR MAG OR RARE) !ID (FILTLVL>7)]:
 
+// FL8: hide all eth Paladin scepters that are white/gray (eth + non-magic/sup/socketed), incl skills/sockets
+ItemDisplay[(scp OR gsc OR wsp OR 9sc OR 9qs OR 9ws OR 7sc OR 7qs OR 7ws) ETH (NMAG OR SUP OR SOCK OR MAG OR RARE) FILTLVL>7]:
+
 // Druid helms
+// FL8: hide all eth druid helms that are white/gray (eth + non-magic/sup/socketed), incl skills/sockets
+ItemDisplay[(dr1 OR dr2 OR dr3 OR dr4 OR dr5 OR dr6 OR dr7 OR dr8 OR dr9 OR dra OR drb OR drc OR drd OR dre OR drf) ETH (NMAG OR SUP OR SOCK) FILTLVL>7]:
+
 ItemDisplay[DRUID PELT NMAG FILTLVL>7]:
+
+// FL8: hard-hide specific club bases (all qualities, eth/non-eth)
+ItemDisplay[(clb OR pcl OR 7cl OR spc OR 9sp OR 7sp) FILTLVL>7]:
+
+// FL8: hide all rare daggers (ID + UNID)
+ItemDisplay[DAGGER RARE FILTLVL>7]:
+
+// FL8: hide all non-magic/superior/socketed dagger bases (white + gray), incl sockets
+ItemDisplay[DAGGER (NMAG OR SUP OR SOCK) FILTLVL>7]:
 
 // Other rare shields
 ItemDisplay[SHIELD RARE !ID (FILTLVL>7)]:
@@ -69,6 +84,10 @@ ItemDisplay[(7tr OR 7br OR 7st OR 7p7 OR 7o7 OR 7v7 OR 7s8 OR 7pa OR 7h7 OR 7wc)
 // Eth spears & polearms
 // 1) ALLOW magic-eth ONLY for pik / 9p9 / 7p7
 ItemDisplay[(pik OR 9p9 OR 7p7) (SPEAR OR POLEARM) MAG ETH FILTLVL>7]: %GRAY%[%WHITE%eth%GRAY%] %BLUE%%NAME%
+
+// Eth spears & polearms
+// 1) ALLOW magic-eth ONLY for pik / 9p9 / 7p7
+ItemDisplay[(pik OR 9p9 OR 7p7) (SPEAR OR POLEARM) RARE ETH FILTLVL>7]: %GRAY%[%WHITE%eth%GRAY%] %YELLOW%%NAME%
 
 // 2) HIDE ALL OTHER magic-eth spears & polearms (NO EXCEPTIONS)
 ItemDisplay[(SPEAR OR POLEARM) MAG ETH FILTLVL>7 !(pik OR 9p9 OR 7p7)]:
