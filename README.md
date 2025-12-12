@@ -1,4 +1,4 @@
-# Enpherno’s PD2 Loot Filter
+# Roofoo’s PD2 Loot Filter
 
 **Edited and maintained by:**  
 - [Enpherno](https://twitch.tv/Enpherno)  
