@@ -32,143 +32,99 @@ ItemDisplay[box FILTLVL=8]: %NAME%{%NAME%%NL%%WHITE%You Can Change it in Setting
 // FILTER LEVEL 8 – STRICT HIDES
 // ===============================
 
-// -------------------------------
 // FL8 ALIASES
 // -------------------------------
 Alias[FL8_GUARD]: (FILTLVL>7 !UNI !SHOP)
-
-// ED helpers (consistent with your current stat logic)
 Alias[FL8_SPEARPOLE_ED10]: (STAT25>=10 OR STAT17>=10 OR STAT18>=10)
 Alias[FL8_WEAPON_ED10]:    (STAT25>=10 OR STAT17>=10 OR STAT18>=10)
-
 Alias[FL8_PALLY_WHITE_OK]: (pad OR pae OR paf)
 Alias[FL8_PALLY_ALL_CODES]: (paa OR pab OR pac OR pag OR pah OR pai OR paj OR pak OR pal OR pam OR pan OR pao OR pap OR paq OR par OR pas OR pat OR pau OR pav OR paw OR pax OR pay OR paz)
 Alias[FL8_PALLY_WHITE_HIDE]: (FL8_PALLY_ALL_CODES !(FL8_PALLY_WHITE_OK))
-
 Alias[FL8_AXE_CODES]: (hax OR axe OR 2ax OR mpi OR wax OR lax OR bax OR btx OR gix OR 9ha OR 9ax OR 92a OR 9mp OR 9wa OR 9la OR 9ba OR 9bt OR 9gi OR 7ha OR 7ax OR 72a OR 7mp OR 7wa OR 7la OR 7ba OR 7bt OR 7gi)
-
 Alias[FL8_SCEPT_CODES]: (scp OR gsc OR wsp OR 9sc OR 9qs OR 9ws OR 7sc OR 7qs OR 7ws)
 Alias[FL8_DRUID_PELT_CODES]: (dr1 OR dr2 OR dr3 OR dr4 OR dr5 OR dr6 OR dr7 OR dr8 OR dr9 OR dra OR drb OR drc OR drd OR dre OR drf)
-
 Alias[FL8_CLUB_CODES]: (clb OR pcl OR 7cl OR spc OR 9sp OR 7sp)
-
 Alias[FL8_OTHER_SHIELD_RARE_EXCL_NECRO]: (buc OR sml OR lrg OR spk OR kit OR bsh OR tow OR gts OR xuc OR xml OR xrg OR xpk OR xit OR xsh OR xow OR xts OR uuc OR uml OR urg OR upk OR uit OR ush OR uow OR uts OR pa1 OR pa2 OR pa3 OR pa4 OR pa5 OR pa6 OR pa7 OR pa8 OR pa9 OR paa OR pab OR pac)
-
 Alias[FL8_STAFFMOD_OK]: (ANYSTAFFEQ1 OR ANYSTAFFEQ2 OR ANYSTAFFEQ3 OR ANYSTAFFEQ4 OR ANYSTAFFEQ5 OR ANYSTAFFEQ6 OR ANYSTAFFEQ7 OR ANYSTAFFEQ8 OR ANYSTAFFEQ9)
-
 Alias[FL8_2HS_CODES_MAG_RARE]: (72h OR 92h OR 2hs OR clm OR gis OR bsw OR 9cm OR 9gs OR 9b9 OR 7cm OR 7gs OR 7b7)
 Alias[FL8_2HS_CODES_SOCK]: (72h OR 92h OR 2hs OR clm OR gis OR bsw OR 9cm OR 9gs OR 9b9 OR 7cm OR 7gs OR 7b7 OR flb OR 9fb OR 7fb OR gsd OR 9gd)
-
-// uar (Archon Plate) INCLUDED
 Alias[FL8_ED_SHOW_ARMOR]: (gth OR aar OR xng OR uui OR uea OR ula OR utu OR ung OR ucl OR uhn OR urs OR upl OR ult OR uld OR uth OR utp OR uul OR uar)
-
 Alias[FL8_ALWAYS_HIDE_ARMOR]: (qui OR lea OR hla OR stu OR rng OR scl OR chn OR brs OR spl OR plt OR fld OR ltp OR ful OR xui OR xea OR xla OR xtu OR xcl OR xhn OR xrs OR xpl OR xlt OR xld OR xth OR xtp OR xul OR xar)
-
 Alias[FL8_SPEARPOLE_ED_OK_CODES]: (7tr OR 7br OR 7st OR 7p7 OR 7o7 OR 7v7 OR 7s8 OR 7pa OR 7h7 OR 7wc)
 Alias[FL8_SPEARPOLE_MAGETH_OK]: (pik OR 9p9 OR 7p7)
-
 Alias[FL8_ORB_CODES_ALL]: (ob1 OR ob2 OR ob3 OR ob4 OR ob5 OR ob6 OR ob7 OR ob8 OR ob9 OR oba OR obb OR obc OR obd OR obe OR obf)
-
 Alias[FL8_BARB_HELM_CODES]: (ba1 OR ba2 OR ba3 OR ba4 OR ba5 OR ba6 OR ba7 OR ba8 OR ba9 OR baa OR bab OR bac OR bad OR bae OR baf)
-
 Alias[FL8_THROW_CODES]: (tkf OR tax OR bkf OR bal OR 9tk OR 9ta OR 9bk OR 9b8 OR 7tk OR 7ta OR 7bk OR 7b8 OR jav OR pil OR ssp OR glv OR tsp OR 9ja OR 9pi OR 9s9 OR 9gl OR 9ts OR 7ja OR 7pi OR 7s7 OR 7gl OR 7ts)
 
 
-// -------------------------------
 // FL8 PALADIN SHIELDS
 // -------------------------------
 ItemDisplay[FL8_PALLY_WHITE_HIDE (NMAG OR SUP) FL8_GUARD]:
 ItemDisplay[FL8_PALLY_WHITE_OK DIN (MAG OR RARE) FL8_GUARD]:
 ItemDisplay[DIN (MAG OR RARE) FL8_GUARD !(FL8_PALLY_WHITE_OK)]:
 
-
-// -------------------------------
 // FL8 PALADIN SCEPTERS
 // -------------------------------
 ItemDisplay[SCEPTER PALADIN (NMAG OR MAG OR RARE) !ID FL8_GUARD]:
 ItemDisplay[FL8_SCEPT_CODES ETH (NMAG OR SUP OR SOCK OR MAG OR RARE) FL8_GUARD]:
 
-
-/* --------------------------------
-   FL8 AXES
-   allow eth 2H axes with 10%+ ED and 5 sockets
---------------------------------- */
+//   FL8 AXES
+//---------------------------------
 ItemDisplay[AXE 2H ETH (NMAG OR SUP OR SOCK) SOCKETS=5 FL8_GUARD FL8_WEAPON_ED10]: %CONTINUE%
 ItemDisplay[FL8_AXE_CODES ETH (NMAG OR SUP OR SOCK OR MAG OR RARE) FL8_GUARD !(AXE 2H (NMAG OR SUP OR SOCK) SOCKETS=5 FL8_WEAPON_ED10)]:
 
 
-/* --------------------------------
-   FL8 PHASE BLADES
-   allow 10%+ ED and 4–5 sockets
---------------------------------- */
+//   FL8 PHASE BLADES
+//---------------------------------
 ItemDisplay[7cr (NMAG OR SUP OR SOCK) (SOCKETS=4 OR SOCKETS=5) FL8_GUARD FL8_WEAPON_ED10]: %CONTINUE%
 
-
-// --------------------------------
 // FL8 DRUID PELTS
-// --------------------------------
+//---------------------------------
 ItemDisplay[FL8_DRUID_PELT_CODES (NMAG OR SUP OR SOCK) FL8_GUARD]:
 ItemDisplay[DRUID PELT NMAG FL8_GUARD]:
 
-
-/* --------------------------------
-   FL8 CLUB BASES
---------------------------------- */
+//   FL8 CLUB BASES
+//---------------------------------
 ItemDisplay[FL8_CLUB_CODES FL8_GUARD]:
 
-
-/* --------------------------------
-   FL8 DAGGERS
---------------------------------- */
+//   FL8 DAGGERS
+//---------------------------------
 ItemDisplay[DAGGER RARE FL8_GUARD]:
 ItemDisplay[DAGGER (NMAG OR SUP OR SOCK) FL8_GUARD]:
 ItemDisplay[DAGGER (MAG OR RARE) ETH !ID FL8_GUARD]:
 
-
-/* --------------------------------
-   FL8 THROWING WEAPONS
---------------------------------- */
+//   FL8 THROWING WEAPONS
+//---------------------------------
 ItemDisplay[FL8_THROW_CODES (NMAG OR SUP OR SOCK) FL8_GUARD]:
 
-
-/* --------------------------------
-   FL8 OTHER RARE SHIELDS
---------------------------------- */
+//   FL8 OTHER RARE SHIELDS
+//---------------------------------
 ItemDisplay[FL8_OTHER_SHIELD_RARE_EXCL_NECRO RARE !ID FL8_GUARD]:
 
-/* --------------------------------
-   FL8 STAVES (no staffmods)
---------------------------------- */
+//   FL8 STAVES (no staffmods)
+//---------------------------------
 ItemDisplay[STAFF (NMAG OR SUP) !(FL8_STAFFMOD_OK) FL8_GUARD]:
 
-
-/* --------------------------------
-   FL8 2H SWORDS
---------------------------------- */
+//   FL8 2H SWORDS
+//---------------------------------
 ItemDisplay[FL8_2HS_CODES_MAG_RARE (MAG OR RARE) FL8_GUARD]:
 ItemDisplay[FL8_2HS_CODES_SOCK (NMAG OR SUP OR SOCK) FL8_GUARD !(STAT16>9)]:
 
-
-/* --------------------------------
-   FL8 ETH MAGIC WEAPONS (unid)
---------------------------------- */
+//   FL8 ETH MAGIC WEAPONS
+//---------------------------------
 ItemDisplay[AXE 1H MAG ETH !ID FL8_GUARD]:
 ItemDisplay[JAV MAG ETH !ID FL8_GUARD]:
 ItemDisplay[SWORD 1H MAG ETH !ID FL8_GUARD]:
 ItemDisplay[MACE MAG ETH !ID FL8_GUARD]:
 
-
-/* --------------------------------
-   FL8 ELITE ARMOR BASE FILTERING BY ED
---------------------------------- */
+//   FL8 ELITE ARMOR BASE FILTERING BY ED
+//---------------------------------
 ItemDisplay[FL8_ED_SHOW_ARMOR (NMAG OR SUP OR SOCK) (SOCKETS=0 OR SOCKETS=4) FL8_GUARD STAT16>=10]: %CONTINUE%
 ItemDisplay[FL8_ED_SHOW_ARMOR (NMAG OR SUP OR SOCK) FL8_GUARD !(STAT16>=10 (SOCKETS=0 OR SOCKETS=4))]:
 ItemDisplay[FL8_ALWAYS_HIDE_ARMOR FL8_GUARD]:
 
-
-/* --------------------------------
-   SPEARS & POLEARMS
---------------------------------- */
+//   SPEARS & POLEARMS
+//---------------------------------
 ItemDisplay[FL8_SPEARPOLE_ED_OK_CODES (SPEAR OR POLEARM) (NMAG OR SUP) FL8_GUARD FL8_SPEARPOLE_ED10]: %CONTINUE%
 ItemDisplay[FL8_SPEARPOLE_ED_OK_CODES (SPEAR OR POLEARM) ETH (NMAG OR SUP OR SOCK) (SOCKETS=0 OR SOCKETS=4) FL8_GUARD FL8_SPEARPOLE_ED10]: %CONTINUE%
 ItemDisplay[(SPEAR OR POLEARM) (NMAG OR SUP OR SOCK) (SOCKETS=4 OR SOCKETS=5) FL8_GUARD]: %CONTINUE%
@@ -178,29 +134,18 @@ ItemDisplay[FL8_SPEARPOLE_MAGETH_OK (SPEAR OR POLEARM) RARE ETH FILTLVL>7 !SHOP]
 ItemDisplay[(SPEAR OR POLEARM) (MAG OR RARE) ETH FL8_GUARD !(FL8_SPEARPOLE_MAGETH_OK)]:
 ItemDisplay[(SPEAR OR POLEARM) ETH FL8_GUARD !(FL8_SPEARPOLE_ED_OK_CODES)]:
 
-
-/* --------------------------------
-   SORC ORBS
---------------------------------- */
+//   SORC ORBS
+//---------------------------------
 ItemDisplay[(ob5 OR oba OR obf) (MAG OR RARE) ETH FILTLVL>7 !SHOP]: %NAME%
 ItemDisplay[FL8_ORB_CODES_ALL (MAG OR RARE) ETH FL8_GUARD]:
 
-
-/* --------------------------------
-   WANDS
---------------------------------- */
+//   WANDS
+//---------------------------------
 ItemDisplay[WAND (NMAG OR MAG) !ID FL8_GUARD]:
 
-
-/* --------------------------------
-   BARB HELMS
---------------------------------- */
+//   BARB HELMS
+//---------------------------------
 ItemDisplay[FL8_BARB_HELM_CODES (NMAG OR MAG OR RARE) FL8_GUARD]:
-
-
-
-
-
 
 
 //DEFINE ALIASES
