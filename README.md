@@ -74,6 +74,9 @@ The sections below document notable changes compared to the base Kryszard filter
 - **Steel Pillar** downgraded to ★☆☆ (Eth remains ★★★)
 - **Widowmaker** upgraded to ★☆☆
 - **Purgatory** downgraded to ★☆☆ (Eth remains ★★★)
+- **Messerschmidt's Reaver** downgraded to ★☆☆ (Eth remains ★★★)
+- **Arreat's Face** downgraded to ★☆☆
+- **Gargoyle's Bite** downgraded to ★☆☆
 - Fixed an issue which was causing eth unique spears and polearms to hide but make the drop sound
 
 ---
