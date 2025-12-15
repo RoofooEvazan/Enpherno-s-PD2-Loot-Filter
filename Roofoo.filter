@@ -1226,8 +1226,6 @@ ItemDisplay[NMAG !RW SK251~1-2]: %LIGHT_GRAY%%SK251%%NAME%%CONTINUE%
 ItemDisplay[NMAG !RW SK251>2]: %ORANGE%+%YELLOW%%SK251%%NAME%%CONTINUE%
 
 //Barbarian
-// FL8: hide non-magic, 0-socket Barb helms
-ItemDisplay[BARBARIAN NMAG SOCK=0 (FILTLVL>7)]:
 ItemDisplay[NMAG !RW SK368>0 BARBARIAN]: %SAGE%dwo%NAME%%CONTINUE%
 ItemDisplay[NMAG !RW SK368>0 !BARBARIAN]: %DARK_GREEN%dwo%NAME%%CONTINUE%
 ItemDisplay[NMAG !RW SK368~1-2]: %LIGHT_GRAY%%SK368%%NAME%%CONTINUE%
@@ -5295,8 +5293,6 @@ ItemDisplay[(uit OR uow OR uts) !INF NMAG !RW (SOCK=0 OR SOCK=4) FILTLVL<6]: %NA
 //Splendor Shields
 ItemDisplay[NEC (SK67>2 OR SK74>2 OR SK94>2 OR SK75>2 OR SK70>2 OR SK84>2 OR SK83>2 OR SK89>2 OR SK92>2 OR SK93>2 OR SK79>2 OR SK80>2 OR SK85>2 OR SK95>2 OR SK374>2 OR SK381>2) !INF !ETH !SOCK=1 NMAG !RW FILTLVL<6]: %NAME%{%NAME%}
 //Weapons
-// Hide all non-magic Barb helms at filter level 8
-ItemDisplay[BARBARIAN (NMAG OR MAG) !ID (FILTLVL>7)]:
 
 // Hide all non-magic daggers at filter level 8
 ItemDisplay[DAGGER (NMAG OR MAG) !ID (FILTLVL>7)]:
