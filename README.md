@@ -15,7 +15,7 @@ All changes are incremental and intentional, designed to enhance high-level play
 ---
 
 ## 🔄 Changelog
-Current Version - 12.1.2 - Updated December 13, 2025
+Current Version - 12.1.3 - Updated December 15, 2025
 
 The sections below document notable changes compared to the base Kryszard filter.
 
