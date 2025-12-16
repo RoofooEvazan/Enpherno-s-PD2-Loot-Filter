@@ -208,6 +208,8 @@ The sections below document notable changes compared to the base Kryszard filter
   
 12.1.3
 - Fixed an issue that was causing all phase blades to show
+- Hide all 5os Crystal swords in town but hide outside of town
+- Hide all non-magic non-skill Archon staves
   
 **Class Bases**
 12.1.2
