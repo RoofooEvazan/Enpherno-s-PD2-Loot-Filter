@@ -145,7 +145,8 @@ The sections below document notable changes compared to the base Kryszard filter
 - High Rune drop sounds changed to POE sounds to ensure priority over other sounds (results of existing LOD sounds having too low priority)
 
 12.1.3
-- Changed HR, 3-Star and 3-Star [ETH] drop sounds back to Kryszard OG now that prioritization is corrected with the recent patch
+- Changed HR drop sounds back to Kryszard OG now that prioritization is corrected with the recent patch
+- Changed 3-Star and 3-Star [ETH] to new sound
 
 ---
 
