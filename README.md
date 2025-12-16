@@ -79,6 +79,9 @@ The sections below document notable changes compared to the base Kryszard filter
 - **Gargoyle's Bite** downgraded to ★☆☆
 - Fixed an issue which was causing eth unique spears and polearms to hide but make the drop sound
 
+12.1.3
+- **Stoneraven** upgraded to ★☆☆ (Eth upgraded to ★★★)
+
 ---
 
 ### 🟩 ITEMS – SET
@@ -200,7 +203,9 @@ The sections below document notable changes compared to the base Kryszard filter
 - Hide all rare and magic Legend Sword/Espandon/Two-handed Sword (including eth)
 - Hide all non-magic and superior spear and polearms with less than 10% enhanced damage (including eth)
   
-
+12.1.3
+- Fixed an issue that was causing all phase blades to show
+  
 **Class Bases**
 12.1.2
 - Hide all non-magic & magic Barbarian helms (including eth)
@@ -210,6 +215,9 @@ The sections below document notable changes compared to the base Kryszard filter
 - Hide non-magic & superior Paladin shields,  
   excluding Vortex, Kurast, and Zakarum Shields
 - Hide all non-magic, socketed or skills druid pelts
+
+12.1.3
+- Fixed an issue the was causing barb and druid helms to show
 
 ## 📸 Screenshot Examples
 
