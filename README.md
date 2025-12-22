@@ -15,7 +15,7 @@ All changes are incremental and intentional, designed to enhance high-level play
 ---
 
 ## 🔄 Changelog
-Current Version - 12.1.3 - Updated December 15, 2025
+Current Version - 12.1.4 - Updated December 21, 2025
 
 The sections below document notable changes compared to the base Kryszard filter.
 
@@ -82,6 +82,12 @@ The sections below document notable changes compared to the base Kryszard filter
 12.1.3
 - **Stoneraven** upgraded to ★☆☆ (Eth upgraded to ★★★)
 
+12.1.4
+- **Skin of the Vipermagi** downgraded to ★☆☆
+- **Grims Burning Dead** upgraded to ★☆☆
+- **Elite Unique Arrows** downgraded to ★☆☆
+- **Demon Machine** upgraded to ★☆☆
+  
 ---
 
 ### 🟩 ITEMS – SET
@@ -94,6 +100,11 @@ The sections below document notable changes compared to the base Kryszard filter
 
 12.1.2
 - **Tal Rasha's Guardianship (Armor)** downgraded to ★☆☆
+
+12.1.4
+- **Aldur's Stony Gaze (Helm)** upgraded to ★☆☆
+- **Griswold's Heart (Chest)** upgraded to ★☆☆
+- **Trang-Oul's Girth (Belt)** upgraded to ★☆☆
 
 ---
 
